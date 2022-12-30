@@ -1,0 +1,139 @@
+.st__navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem 6rem;
+}
+
+.st__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.st__navbar-links_logo {
+  margin-right: 2rem;
+}
+
+/* .st__navbar-links_logo img {
+  width: 62px;
+  height: 16px;
+} */
+
+.st__navbar-links_logo h4  {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--font-family);
+}
+
+.st__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.st__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.st__navbar-links_container p,
+.st__navbar-sign p,
+.st__navbar-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size:18px;
+  line-height: 25px;
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.st__navbar-sign button,
+.st__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-family: var(--font-family);
+  font-size:18px;
+  background: var(--color-subtext);
+  
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.st__navbar-menu {
+  margin-left: 1rem;
+  /* hide menu from this media */
+  display: none;
+  position: relative;
+}
+
+.st__navbar-menu svg {
+  cursor: pointer;
+}
+
+.st__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2)
+}
+
+.st__navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.st__navbar-menu_container-links-sign {
+  display: none;
+}
+
+/* hide the menu list from 1050px or less */
+@media  screen and (max-width: 1050px) {
+  .st__navbar-links_container {
+    display: none;
+  }
+  
+  .st__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .st__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .st__navbar {
+    padding: 2;
+  }
+  .st__navbar-links_logo h4 {
+    font-size: 18px;
+  }
+  .st__navbar-sign {
+    display: none
+  }
+  .st__navbar-menu_container-links-sign {
+    display: block;
+  }
+  .st__navbar-menu_container {
+    top: 20px;
+  }
+}
