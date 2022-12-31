@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 :root {
-  --font-family: 'Montserrat', sans-serif;
+  --font-family: 'Oswald', sans-serif;
 
   --gradient-text: linear-gradient(141deg, #D7B4E6 0%, #009688 100%);
   --gradient-bar: linear-gradient(141deg, #4CAF50 0%, #CDDC39 65%);

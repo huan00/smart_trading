@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import { CgMenuMotion, CgMenu } from 'react-icons/cg'
-import logo from '../assets/logo.svg'
 
 const Menu = () => (
   <>
