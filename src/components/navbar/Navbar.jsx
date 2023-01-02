@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import { CgMenuMotion, CgMenu } from 'react-icons/cg'
+import logo from '../../assets/logo.svg'
 
 const Menu = () => (
   <>
@@ -28,8 +29,8 @@ const Navbar = () => {
     <div className="st__navbar">
       <div className="st__navbar-links">
         <div className="st__navbar-links_logo">
-          {/* <img src={logo} alt="logo" /> */}
-          <h4>Smart-Trading</h4>
+          <img src={logo} alt="logo" />
+          {/* <h4>Smart-Trading</h4> */}
         </div>
         <div className="st__navbar-links_container">
           <Menu />

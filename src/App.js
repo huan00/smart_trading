@@ -1,6 +1,6 @@
 import './App.css'
-import Navbar from './components/navbar/Navbar'
-import { Header, Social, Wst, Features } from './containers'
+import { Navbar, Banner } from './components'
+import { Header, Social, Wst, Features, Demo } from './containers'
 
 const App = () => {
   return (
@@ -12,6 +12,8 @@ const App = () => {
       <Social />
       <Wst />
       <Features />
+      <Demo />
+      <Banner />
     </div>
   )
 }

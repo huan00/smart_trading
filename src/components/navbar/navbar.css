@@ -9,18 +9,20 @@
 .st__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
 }
 
 .st__navbar-links_logo {
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
-/* .st__navbar-links_logo img {
-  width: 62px;
-  height: 16px;
-} */
+.st__navbar-links_logo img {
+  width: 75px;
+  /* height: 50px; */
+  /* border-radius: 50% */
+
+}
 
 .st__navbar-links_logo h4  {
   color: #fff;

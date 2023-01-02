@@ -31,17 +31,30 @@
   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
   .st__features {
     flex-direction: column;
   }
   .st__features-heading p {
     margin-bottom: 2rem;
   }
-
   .st__features-container .st__card {
     padding: 0;
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .st__features {
+    /* flex-direction: column; */
+  }
+  .st__features-heading p {
+    /* margin-bottom: 2rem; */
+  }
+
+  .st__features-container .st__card {
+    /* padding: 0;
+    margin-left: 0; */
   }
 }
 
