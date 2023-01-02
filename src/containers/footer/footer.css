@@ -1,0 +1,113 @@
+.st__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  background: var(--color-footer);
+  padding: 2rem 6rem;
+}
+
+.st__footer-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.st__footer-heading h1 {
+  font-size: 64px;
+  font-weight: 72px;
+  font-family: var(--font-family);
+  text-align: center;
+}
+
+.st__footer-heading p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: var(--font-family);
+  color: #fff;
+
+  border: 1px solid #fff;
+  padding: 1rem 2rem;
+  margin: 4rem 0;
+  cursor: pointer;
+}
+
+.st__footer-container__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.st__footer-container__content-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 250px
+}
+
+.st__footer-container__content-logo img {
+  width: 75px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.st__footer-container__content-logo p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 12px;
+}
+
+.st__footer-container__content-links {
+  color: #fff;
+  font-family: var(--font-family);
+  min-width: 250px
+}
+
+.st__footer-container__content-links h4 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.st__footer-container__content-links p {
+  margin-bottom: .5rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.st__footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.st__footer-copyright p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 14px;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .st__footer-heading h1 {
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .st__footer-heading p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .st__footer {
+    padding: 2rem;
+  }
+  .st__footer-heading h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .st__footer-heading p {
+    font-size: 14px;
+  }
+}

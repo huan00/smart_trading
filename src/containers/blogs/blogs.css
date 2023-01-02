@@ -48,7 +48,11 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 2rem;
     margin-right: 0;
-    gap: 2rem;
+    gap: 1rem;
+  }
+
+  .st__blogs-container__blogs {
+    gap: 1rem
   }
 
   .st__blogs-container__blog1 .st__blog-container__content p, .st__blogs-container__blogs .st__blog-container__content p {
@@ -69,9 +73,10 @@
   }
   .st__blogs-container__blogs {
     grid-template-columns: 1fr;
+    
   }
   .st__blogs-container__blog1 {
     grid-template-columns: 1fr;
-  
+
   }
 }

@@ -1,6 +1,14 @@
 import './App.css'
 import { Navbar, Banner } from './components'
-import { Header, Social, Wst, Features, Demo, Blogs } from './containers'
+import {
+  Header,
+  Social,
+  Wst,
+  Features,
+  Demo,
+  Blogs,
+  Footer
+} from './containers'
 
 const App = () => {
   return (
@@ -15,6 +23,7 @@ const App = () => {
       <Demo />
       <Banner />
       <Blogs />
+      <Footer />
     </div>
   )
 }
