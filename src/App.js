@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/navbar/Navbar'
-import Header from './containers/header/Header'
+import { Header, Social, Wst, Features } from './containers'
 
 const App = () => {
   return (
@@ -9,6 +9,9 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
+      <Social />
+      <Wst />
+      <Features />
     </div>
   )
 }
